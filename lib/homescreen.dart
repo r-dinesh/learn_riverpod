@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:learn_statenotifierprovider/main.dart';
+import 'package:learn_riverpod/main.dart';
 
 class MyHomePage extends ConsumerWidget {
   const MyHomePage({super.key, required this.title});
 
   final String title;
-cd ..
+
   void onSubmit(String value, WidgetRef ref) {
     ref.read(userProvider.notifier).updateName(value);
   }

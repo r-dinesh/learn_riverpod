@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:learn_statenotifierprovider/user.dart';
+import 'package:learn_riverpod/user.dart';
 import 'homescreen.dart';
 
 //final nameProvider = StateProvider<String?>((ref) => null);
